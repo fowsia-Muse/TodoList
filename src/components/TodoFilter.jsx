@@ -7,7 +7,7 @@ import { TodoContext } from '../TodoProvider/TodoContext';
   const { filter } = state;
 
   const setFilter = useCallback((filter) => {
-    dispatch({ type: 'SETFILTER', payload: filter });
+    dispatch({ type: 'SET_FILTER', payload: filter });
   }, [dispatch]);
 
   return (
